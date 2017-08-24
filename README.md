@@ -101,3 +101,9 @@ cf set-env python-iot-hackathon DEVICE_ID "b827eb36267d"
 There is a row that says urls:, copy that URL and paste it into your browser.  
 If everything went well you should have a page that looks like the following:  
 ![webapp](https://user-images.githubusercontent.com/31011479/29692513-54a1053a-88e5-11e7-83de-dd4c8adf251c.png)
+
+### Below are the Class Diagram and Flow Diagram of the above project.
+***Class Diagram***
+![classdiag](https://user-images.githubusercontent.com/31011479/29692966-b19efb0a-88e7-11e7-93f2-9cac6263bd5c.jpg)
+***Flow Diagram***
+![flowdiag](https://user-images.githubusercontent.com/31011479/29692967-b19fca4e-88e7-11e7-9953-196964278a4f.jpg)
