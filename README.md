@@ -88,10 +88,7 @@ cf set-env python-iot-hackathon PHONE_NUMBER_FROM "+19192006462"
 #you can get it by running service iot getdeviceid on your raspberry pi
 cf set-env python-iot-hackathon DEVICE_ID "b827eb36267d"
 ```
-6. To deploy our application all we need to do now is type cf push myappname where myapp name is a unique name you choose for your app.
-```
-cf push myappname
-```
+6. To deploy our application all we need to do now is type ***cf push myappname*** where myapp name is a unique name you choose for your app.
 7. It will take about a minute or two to deploy your application but eventually you will get some output that looks like the following:
 > requested state: started  
 > instances: 1/1  
@@ -100,6 +97,7 @@ cf push myappname
 > last uploaded: Fri Jul 31 00:25:17 UTC 2015  
 > stack: lucid64  
 > buildpack: SDK for Node.js(TM) (ibm-node.js-0.12.7)  
-There is a row that says urls:, copy that URL and paste it into your browser.
-If everything went well you should have a page that looks like the following:
-![IMG]()
+
+There is a row that says urls:, copy that URL and paste it into your browser.  
+If everything went well you should have a page that looks like the following:  
+![webapp](https://user-images.githubusercontent.com/31011479/29692513-54a1053a-88e5-11e7-83de-dd4c8adf251c.png)
